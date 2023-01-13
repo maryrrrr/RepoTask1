@@ -24,7 +24,7 @@ const Card = ()=> {
             <h2 className="card-title">The Master Trick</h2>
             <p className="card-description">A greedy fox stealthily entered a garden to eat the grapes. But its tail was cut down by a trap when it tried to escape from the trap. It worried because all other foxes would mock at its lost tall. Hence it planned a trick. When all foxes ridiculed it and said, "I have cut down the tail myself because it is a great hindrance. Now I am free and happy without my tail. So you too cut down your tails. It will be very convenient to all of you." An old wise fox laughed at the tricky fox and said, "I will also join you after losing my tail when I try to steal the grapes. 
             It looks very nice to be with a tail and I am proud of it." Now all other faxes understood the trick of the fox and mocked at it.
-            The ashamed fox ran away into the forest.Moral of the Story : Don't believe selfish person's words.</p>
+            </p>
             <div className="card-btn">
               <button>Like</button>
               <button>Comment</button>

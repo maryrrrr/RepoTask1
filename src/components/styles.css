@@ -1,12 +1,15 @@
   .body-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color:rgb(11, 32, 32);
  }
+ 
  .wrapper{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.5); 
  }
 
 img{
@@ -14,11 +17,12 @@ img{
   margin-right: 15px;
   width: 200px;
   height: 150px;
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 1em;
  }
 
 .card-btn button{
+    font-weight: bold;
     text-decoration: none;
     color: #000;
     padding: 4px 20px;
@@ -27,7 +31,7 @@ img{
     display: inline-block;
     margin-left: 14px;
     margin-bottom: 5px;
-    background-color: rgb(62, 191, 62);
+    background-color: #cafafe;
     border-radius: 3px;
     border-style: none;
  }
@@ -35,9 +39,9 @@ img{
  .card-title{
     text-align: center;
  }
- 
+
  .card-description{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-right: 12px;
     justify-content:center;
   
