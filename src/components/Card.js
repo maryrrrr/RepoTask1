@@ -18,8 +18,8 @@ const Card = ()=> {
               <button>Like</button>
               <button>Comment</button>
             </div>
-
-        <div>
+        </div>
+        <div className="wrapper">
             <img src= {pic2} alt ="Short Story"/>
             <h2 className="card-title">The Master Trick</h2>
             <p className="card-description">A greedy fox stealthily entered a garden to eat the grapes. But its tail was cut down by a trap when it tried to escape from the trap. It worried because all other foxes would mock at its lost tall. Hence it planned a trick. When all foxes ridiculed it and said, "I have cut down the tail myself because it is a great hindrance. Now I am free and happy without my tail. So you too cut down your tails. It will be very convenient to all of you." An old wise fox laughed at the tricky fox and said, "I will also join you after losing my tail when I try to steal the grapes. 
@@ -30,7 +30,7 @@ const Card = ()=> {
               <button>Comment</button>
             </div>
         </div>
-        </div>
+        
        
       </>
     );
