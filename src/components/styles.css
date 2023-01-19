@@ -1,49 +1,82 @@
-  .body-title{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color:rgb(11, 32, 32);
- }
- 
- .wrapper{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.5); 
- }
+html{
+   margin: 0px;
+   padding: 0px;
+   font-family:"Lackawanna Weed NF";
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+*{
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   }
+.siteHeader{
+   display: flex;
+   background-color:#bbdefb;
+   padding: 10px;
+   justify-content: space-between;
+   border-radius: 5px;
+}
+.section{
+   display: flex;
+   align-items: center;
+   margin-left: 6px;
+   font-weight: bold;
+   padding: 5px 15px;
+}
+.logo{
+   height: 50px;
+}
+.menu{
+   margin-left: 15px;
+}
+.topic{
+   color:#0d47a1;
+   text-decoration-line: overline underline;
+   margin-left: 300px;
+   text-shadow: 2px 2px 5px #758d9b;
+   font-size: XX-large;
+}
+.like,.comment{
+   width: 25px;
+   height: 25px;
+   margin-left: 10px;
+}
+.search,.login{
+   width: 40px;
+   height: 35px;
+}
+.container{
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 
-img{
-  float: left;
-  margin-right: 15px;
-  width: 200px;
-  height: 150px;
-  border-radius: 25px;
-  padding: 1em;
- }
-
-.card-btn button{
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-    padding: 4px 20px;
-    justify-content: space-between;
-    cursor: pointer;
-    display: inline-block;
-    margin-left: 14px;
-    margin-bottom: 5px;
-    background-color: #cafafe;
-    border-radius: 3px;
-    border-style: none;
- }
-
- .card-title{
-    text-align: center;
- }
-
- .card-description{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-right: 12px;
-    justify-content:center;
-  
- }
-
+}
+.box{
+   flex-grow: 1;
+   margin:6px;
+   width: 32%;
+   height: auto;
+   margin-top: 10px;
+   border-radius: 8px;
+   box-shadow: 0 6px 43px 0 rgba(0, 0, 0, 0.4);
+}
+.bgpic{
+   filter: drop-shadow(1px 1px 10px rgb(0,0,0,0.5));
+   display: flex;
+   object-fit: cover;
+   height: 40%;
+}
+.pic{
+   width: 100%;
+   border-radius: 8px;
+}
+p{
+   text-align: justify;
+   margin: 2px;
+   padding-left: 2px;
+   padding-right: 2px;
+}
+h2{
+   text-align: center;
+}
