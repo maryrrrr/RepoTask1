@@ -1,13 +1,12 @@
 import React from "react";
 import "./styles.css";
-import likebtn from "../assets/images/filled-like.png";
-import commentbtn from "../assets/images/comments (1).png";
 import logohdr from "../assets/images/grandma-storytelling.png";
-import searchbtn from "../assets/images/search (1).png";
-import loginbtn from "../assets/images/login-rounded-right.png";
 import story1 from "../assets/images/hare-tortoise.jpg";
 import story2 from "../assets/images/The-Greedy-Dog-Story.jpg";
 import story3 from "../assets/images/Moral-story-The-Thirsty-Crow.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {} from '@fortawesome/free-solid-svg-icons';
+
 
 const Card = ()=> {
     return(
@@ -20,18 +19,18 @@ const Card = ()=> {
                 <div className="menu"><a href="#">MainPage</a></div>
                 <div className="menu"><a href="#">Category</a></div>
                 <div className="menu"><a href="#">ContactUs</a></div>
-                <div className="topic">
-                    <p> English Short Stories</p>
-                </div>
+              </div>
+              <div className="topic">
+                <p> English Short Stories</p>
               </div>
 
               <div className="section">
                 <div className="sideMenu">
                     <a href="#">
-                      <img className="search" src={searchbtn} alt="search"/>
+                      <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" size="sm" />
                     </a>
                     <a href="#">
-                      <img className="login" src={loginbtn} alt="login"/>
+                    <FontAwesomeIcon icon="fa-regular fa-right-to-bracket" size="sm" />
                     </a>
                 </div>
               </div>
@@ -53,10 +52,10 @@ const Card = ()=> {
                 Even if all the odds are stacked against you, never give up. Sometimes life is not about who’s the fastest or the strongest,
                 it’s about who is the most consistent.</p>
             <a href="#">
-              <img className="like" src={likebtn}/>
-              </a>
+              <FontAwesomeIcon icon="fa-solid fa-heart" />
+            </a>
             <a href="#">
-              <img className="comment" src={commentbtn}/>
+              <FontAwesomeIcon icon="fa-solid fa-comment" />
             </a>
         </div>
           <div className="box">
@@ -71,11 +70,11 @@ const Card = ()=> {
                 <br/><br/><strong>Moral of the story:</strong>
                 If we always envy what others have, we’ll end up losing what we already have, just like the greedy dog.</p>
             <a href="#">
-              <img className="like" src={likebtn}/>
+             <FontAwesomeIcon icon="fa-solid fa-heart" />
             </a>
             <a href="#">
-              <img className="comment" src={commentbtn}/>
-              </a>
+              <FontAwesomeIcon icon="fa-solid fa-comment" />
+            </a>
           </div>
             <div className="box">
                 <div className="bgpic">
@@ -89,11 +88,11 @@ const Card = ()=> {
                     <br/><br/><strong>Moral of the story:</strong>
                     If there’s a will, there’s a way. Every problem has a solution if we just look hard enough and don’t give up.</p>
                 <a href="#">
-                  <img className="like" src={likebtn}/>
+                  <FontAwesomeIcon icon="fa-solid fa-heart" />
                 </a>
                 <a href="#">
-                  <img className="comment" src={commentbtn}/>
-                  </a>
+                  <FontAwesomeIcon icon="fa-solid fa-comment" />
+                </a>
               </div>
             </div>
       </>
