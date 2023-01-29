@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import logohdr from "../assets/images/grandma-storytelling.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 
 const Category= () => {
@@ -25,7 +26,7 @@ const Category= () => {
                       <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" size="sm" />
                     </a>
                     <a href="#">
-                    <FontAwesomeIcon icon="fa-regular fa-right-to-bracket" size="sm" />
+                    <FontAwesomeIcon icon={faCoffee}/>
                     </a>
                 </div>
               </div>
