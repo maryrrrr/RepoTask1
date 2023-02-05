@@ -58,7 +58,7 @@ html{
    height: 35px;
 }
 .container{
-   display:flex;
+   display: flex;
    flex-direction: row;
    flex-wrap: wrap;
 }
@@ -69,24 +69,24 @@ html{
    }
 }
 .box{
-   flex-grow: 1;
-   margin:6px;
-   width: 32%;
+   width: 320px;
    height: auto;
-   margin-top: 10px;
+   margin: 8px;
    border-radius: 8px;
-   box-shadow: 0 6px 43px 0 rgba(0, 0, 0, 0.4);
-   overflow: scroll;
+   border: 1px solid #eee;
 }
-
+.box p{
+   padding: 16px;
+}
 .bgpic{
    display: flex;
    object-fit: cover;
-   height: 40%;
 }
 .pic{
    width: 100%;
    border-radius: 8px;
+   display: inline-block;
+   height: auto;
 }
 p{
    text-align: justify;

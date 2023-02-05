@@ -6,7 +6,7 @@ import StoryPost from "./pages/StoryPost";
 function App() {
   return (
     <>
-     <StoryPost/>
+     <Inspiration/>
     </>
   );
 }

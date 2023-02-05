@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-// import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const StoryPost = ()=> {
-    const{storyId}= useParames();
+    const{storyId}= useParams();
     const[title,setTitle]= useState([]);
     const[image,setImage]=useState([]);
     const[desc,setDesc]= useState([]);
