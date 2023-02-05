@@ -5,10 +5,11 @@ import story1 from "../assets/images/hare-tortoise.jpg";
 import story2 from "../assets/images/The-Greedy-Dog-Story.jpg";
 import story3 from "../assets/images/Moral-story-The-Thirsty-Crow.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {} from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass,faRightToBracket,faHeart,faComment } from '@fortawesome/free-solid-svg-icons';
 
 
-const Card = ()=> {
+
+const Inspiration = ()=> {
     return(
       <>
       
@@ -16,23 +17,18 @@ const Card = ()=> {
           <div className="siteHeader">
               <div className="section">
                 <img className="logo" src={logohdr}/>
-                <div className="menu"><a href="#">MainPage</a></div>
-                <div className="menu"><a href="#">Category</a></div>
-                <div className="menu"><a href="#">ContactUs</a></div>
               </div>
               <div className="topic">
                 <p> English Short Stories</p>
               </div>
 
               <div className="section">
-                <div className="sideMenu">
-                    <a href="#">
-                      <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" size="sm" />
-                    </a>
-                    <a href="#">
-                    <FontAwesomeIcon icon="fa-regular fa-right-to-bracket" size="sm" />
-                    </a>
-                </div>
+                  <a href="#">
+                    <FontAwesomeIcon icon={faMagnifyingGlass} size="lg"/>
+                  </a>
+                  <a href="#">
+                  <FontAwesomeIcon icon={faRightToBracket} size="lg"/>
+                  </a>
               </div>
           </div> 
 
@@ -52,10 +48,10 @@ const Card = ()=> {
                 Even if all the odds are stacked against you, never give up. Sometimes life is not about who’s the fastest or the strongest,
                 it’s about who is the most consistent.</p>
             <a href="#">
-              <FontAwesomeIcon icon="fa-solid fa-heart" />
+              <FontAwesomeIcon icon={faHeart} size="lg"/>
             </a>
             <a href="#">
-              <FontAwesomeIcon icon="fa-solid fa-comment" />
+              <FontAwesomeIcon icon={faComment} size="lg"/>
             </a>
         </div>
           <div className="box">
@@ -70,10 +66,10 @@ const Card = ()=> {
                 <br/><br/><strong>Moral of the story:</strong>
                 If we always envy what others have, we’ll end up losing what we already have, just like the greedy dog.</p>
             <a href="#">
-             <FontAwesomeIcon icon="fa-solid fa-heart" />
+              <FontAwesomeIcon icon={faHeart} size="lg"/>
             </a>
             <a href="#">
-              <FontAwesomeIcon icon="fa-solid fa-comment" />
+              <FontAwesomeIcon icon={faComment} size="lg"/>
             </a>
           </div>
             <div className="box">
@@ -88,14 +84,14 @@ const Card = ()=> {
                     <br/><br/><strong>Moral of the story:</strong>
                     If there’s a will, there’s a way. Every problem has a solution if we just look hard enough and don’t give up.</p>
                 <a href="#">
-                  <FontAwesomeIcon icon="fa-solid fa-heart" />
+                  <FontAwesomeIcon icon={faHeart} size="lg"/>
                 </a>
                 <a href="#">
-                  <FontAwesomeIcon icon="fa-solid fa-comment" />
+                  <FontAwesomeIcon icon={faComment} size="lg"/>
                 </a>
               </div>
             </div>
       </>
     );
 }
-export default Card;
+export default Inspiration;

@@ -1,11 +1,12 @@
-import Card from "./components/Card";
-import Category from "./components/Category";
-import ContactUs from "./components/ContactUs";
+import MainPage from "./pages/MainPage";
+import ContactUs from "./pages/ContactUs";
+import Inspiration from "./pages/Inspiration";
+import StoryPost from "./pages/StoryPost";
 
 function App() {
   return (
     <>
-      <Category/>    
+     <StoryPost/>
     </>
   );
 }
